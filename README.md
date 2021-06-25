@@ -1,0 +1,2 @@
+# tp_py_grpc_aio_nogen
+不编译proto的python异步接口grpc实现
