@@ -35,32 +35,32 @@
     },
     "components": {
         "aio_nogen_sdk": {
-            "source": "cp_py_grpc//aio_nogen_sdk",
+            "source": "cp_py_grpc@dev//aio_nogen_sdk",
             "description": "grpc的客户端定义",
             "default_path": "{{ project_name }}/sdk"
         },
         "aio_sdk_interceptor": {
-            "source": "cp_py_grpc//aio_sdk_interceptor",
+            "source": "cp_py_grpc@dev//aio_sdk_interceptor",
             "description": "grpc的客户端定义",
             "default_path": "{{ project_name }}/sdk/interceptor"
         },
         "aio_nogen_serv": {
-            "source": "cp_py_grpc//aio_nogen_serv",
+            "source": "cp_py_grpc@dev//aio_nogen_serv",
             "description": "grpc的服务端定义",
             "default_path": "{{ project_name }}/serv"
         },
         "aio_serv_interceptor": {
-            "source": "cp_py_grpc//aio_serv_interceptor",
+            "source": "cp_py_grpc@dev//aio_serv_interceptor",
             "description": "grpc的客户端定义",
             "default_path": "{{ project_name }}/serv/interceptor"
         },
         "service_schema": {
-            "source": "cp_py_grpc//service_schema",
+            "source": "cp_py_grpc@dev//service_schema",
             "description": "项目定义service的proto文件",
             "default_path": "pbschema/{{ serv_name }}.proto"
         },
         "main": {
-            "source": "cp_py_grpc//main",
+            "source": "cp_py_grpc@dev//main",
             "description": "项目入口文件",
             "default_path": "{{ project_name }}/__main__.py"
         },
